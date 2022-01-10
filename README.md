@@ -4,7 +4,7 @@ This is an extension of the SUV data logistic regression analysis listed [here](
 What you will see in this rendition is an implementation of a larger confussion matrix, indexing of columns, adding new columns, and an explination regarding __why we might want 
 explore the splitting of the data based on a larger confusion matrix__. This also explores the use of the multilabel confussion matrix that is part of the sklearn package. Finally, this separates the purchasing data into Male and Female purchases and demonstrates the methods you would use to explore how other models migth fare for the less-accurately predicted male data. 
 
-[Confusion Matrix Basic Logistic Regression](https://github.com/AxisMeetsWorld/Small-Logisic-Regression-SUV-data/blob/main/SUV_Confusion_Orig.png)
+![Confusion Matrix Basic Logistic Regression] (https://github.com/AxisMeetsWorld/Small-Logisic-Regression-SUV-data/blob/main/SUV_Confusion_Orig.png)
 
 ## More details and building blocks
   The first thing that needs to be performed differently to accomplish this is to enumerate the gender column and in this instance, *likely due to alphabetical order*, you will see male purchasers identified by a "1", and female by a "0". Here are the first 10 colyumns of the modified set:
