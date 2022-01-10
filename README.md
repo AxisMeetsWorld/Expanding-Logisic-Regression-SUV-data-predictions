@@ -18,7 +18,7 @@ explore the splitting of the data based on a larger confusion matrix__. This als
 |15600575|1|25|33000|0|
 |15727311|0|35|65000|0|
 
-<font color='blue'>Then, with the help of setting up an array of conditions and using the "logical_and" as well as the numpy "select" function we can create the new column categorizing male, female, purchased, and non-purchased data:<font>
+Then, with the help of setting up an array of conditions and using the "logical_and" as well as the numpy "select" function we can create the new column categorizing male, female, purchased, and non-purchased data:
   
 |User ID|Gender_int|Age|EstimatedSalary|Purchased|Gender_purchase_even = Purchased|
 |---|---|---|---|---|---|
