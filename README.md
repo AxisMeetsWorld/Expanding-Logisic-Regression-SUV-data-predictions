@@ -36,7 +36,7 @@ Then, with the help of setting up an array of conditions and using the "logical_
 |15600575|1|25|33000|0|1|
 |15727311|0|35|65000|0|3|  
 
-##Setting Up a More Granular Matrix:
+## Setting Up a More Granular Matrix:
   The next hurdle is to rerun the testing and training data with regard to the newly added column. In this example this column was assigned a variable (Z) when the original confusion matrix was created. Simply run the LogisticRegression() model with this new data as your target column, rename the columns and rows with the .columns(), and .index() properties of your new dataframe, and apply labels that describe whether it was a man, woman, and whether they purchased or not to those properties. In this example, in order to see how all of the numbers break down percentagewise, use the dataframe.sum() method, and re-writing the values of the dataframe as the ratio of each cross-calculated value over the sum (DF = DF.astype('float')/DF.sum()). Here you can see the confusion matrix:
   ![Male and Female Prediction Results](https://github.com/AxisMeetsWorld/Small-Logisic-Regression-SUV-data/blob/main/SUV_Granular_Matrix.png)
   
