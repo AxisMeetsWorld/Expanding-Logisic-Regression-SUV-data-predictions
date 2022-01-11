@@ -42,3 +42,5 @@ Then, with the help of setting up an array of conditions and using the "logical_
   
 If you want to see a little breakdown of the numbers for each category, you can create a small bar chart. Simply be careful to label correctly as you will see the values are presorted based on which category is present the most. 
 ![Barchart Breakdown of Male and Female Predictions](https://github.com/AxisMeetsWorld/Small-Logisic-Regression-SUV-data/blob/main/Purchase_Breakdown_Barchart.png)
+
+From the expanded confusion matrix, it should be pretty clear that the models are better at predicting Female purchasers (just over 1% error for female data, but over 7% of the error is attributed to male data), than Male purchasers, so it is worth exploring if we could improve the Male data only. In case you want to see the counts, you can see the breakdowns here by constructing a title for each category, constructing selected values of that 4 category column, and constructing 2X2 confusion matricies from there. You can see these counts here:
